@@ -9,29 +9,27 @@
 
     //ENTRADA
 
-    const fruta1 = String(prompt("Digite o nome de uma fruta:"))
-    const fruta2 = String(prompt("Digite o nome de outra fruta:"))
-    const fruta3 = String(prompt("Digite o nome de mais uma fruta:"))
-    const bebida1 = String(prompt("Digite o nome de uma bebida:"))
-    const bebida2 = String(prompt("Digite o nome de outra bebida:"))
-    const bebida3 = String(prompt("Digite o nome de mais uma bebida:"))
+    const fruta1 = prompt("Digite o nome de uma fruta:")
+    const fruta2 = prompt("Digite o nome de outra fruta:")
+    const fruta3 = prompt("Digite o nome de mais uma fruta:")
+    const bebida1 = prompt("Digite o nome de uma bebida:")
+    const bebida2 = prompt("Digite o nome de outra bebida:")
+    const bebida3 = prompt("Digite o nome de mais uma bebida:")
 
     const frutas = [];
     const bebidas = [];
 
-    document.write("As frutas a serem compradas são:", frutas.push(fruta3, fruta2, fruta1),"</br>"); 
-    document.write("As bebidas a serem compradas são:", bebidas.push(bebida3, bebida2, bebida1),"</br>");
-
-    const comprageral = frutas.concat(bebidas);
-
-    document.write(frutas.join(", "));
-    document.write(bebidas.join(", "));
-    document.write(comprageral.join(", "));
-
-
     //PROCESSAMENTO
+    frutas.push(fruta1, fruta2, fruta3)
+    frutas.toString
 
+    bebidas.push(bebida1, bebida2, bebida3)
+    bebidas.toString
 
     //SAÍDA
+
+    document.write("As frutas a serem compradas são:", frutas ,"</br>"); 
+    document.write("As bebidas a serem compradas são:", bebidas ,"</br>");
+    document.write ("A lista completa de compras é: ", frutas.concat(bebidas));
 
 </script>

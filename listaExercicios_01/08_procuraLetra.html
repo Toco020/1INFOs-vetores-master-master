@@ -7,10 +7,19 @@
 
     //ENTRADA
 
-
+    const frase = prompt("Digite UMA palavra");
+    const letra = prompt("Digite Uma letra para procurar na palavra");
+    
     //PROCESSAMENTO
+    frase.toString
+    letra.toString
 
+    const procuraletra = frase.search(letra);
 
     //SAÍDA
-
+    if (procuraletra == -1){
+        document.write("essa letra não tem na palavra !!!");
+    }else {
+        document.write(procuraletra);
+    };
 </script>
