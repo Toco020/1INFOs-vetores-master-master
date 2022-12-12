@@ -21,15 +21,16 @@
 
     //PROCESSAMENTO
     frutas.push(fruta1, fruta2, fruta3)
-    frutas.toString
+    //frutas.toString
 
     bebidas.push(bebida1, bebida2, bebida3)
-    bebidas.toString
+    //bebidas.toString
 
     //SAÍDA
+    document.write("As frutas a serem compradas são: ", frutas.join(", ") ,".</br>"); 
+    document.write("As bebidas a serem compradas são: ", bebidas.join(", ") ,".</br>");
+    document.write ("A lista completa de compras é: ", frutas.concat(bebidas).join(", "), ".");
 
-    document.write("As frutas a serem compradas são:", frutas ,"</br>"); 
-    document.write("As bebidas a serem compradas são:", bebidas ,"</br>");
-    document.write ("A lista completa de compras é: ", frutas.concat(bebidas));
+    // Funciona, mas poderia estar com as saídas agradáveis ao usuário
 
 </script>
